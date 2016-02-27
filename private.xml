@@ -6,7 +6,7 @@
     <identifier>private-music-remap-play-next</identifier>
     <autogen>
       __KeyToKey__
-      KeyCode::L, ModifierFlag::CONTROL_L,
+      KeyCode::L, ModifierFlag::OPTION_L | ModifierFlag::NONE,
       ConsumerKeyCode::MUSIC_NEXT
     </autogen>
   </item>
@@ -16,7 +16,7 @@
     <identifier>private-music-remap-play-previous</identifier>
     <autogen>
       __KeyToKey__
-      KeyCode::H, ModifierFlag::CONTROL_L,
+      KeyCode::H, ModifierFlag::OPTION_L | ModifierFlag::NONE,
       ConsumerKeyCode::MUSIC_PREV
     </autogen>
   </item>
@@ -26,7 +26,7 @@
     <identifier>private-music-remap-volume-up</identifier>
     <autogen>
       __KeyToKey__
-      KeyCode::K, ModifierFlag::CONTROL_L,
+      KeyCode::K, ModifierFlag::OPTION_L | ModifierFlag::NONE,
       ConsumerKeyCode::VOLUME_UP
     </autogen>
   </item>
@@ -36,7 +36,7 @@
     <identifier>private-music-remap-volume-down</identifier>
     <autogen>
       __KeyToKey__
-      KeyCode::J, ModifierFlag::CONTROL_L,
+      KeyCode::J, ModifierFlag::OPTION_L | ModifierFlag::NONE,
       ConsumerKeyCode::VOLUME_DOWN
     </autogen>
   </item>
